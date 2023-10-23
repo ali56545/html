@@ -1,0 +1,78 @@
+body {
+    margin:0px;
+    color: #555555;
+    background-color: lightyellow;
+    text-align:left;
+    }
+    header {
+    width: 100%;
+    padding:30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/97/Lamborghini_Aventador_LP700-4_Orange.jpg);
+    margin-bottom:20px;
+    color: #FFFFFF;
+    font-family: Georgia;
+    font-size: 30px;
+    text-align: center;
+    }
+    h1{
+    font-family: Georgia;
+    font-size: 25px;
+    font-weight: normal;
+    color: red;
+    padding: 5px;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: greenyellow;
+    }
+    li.nav {
+    float: left;
+    }
+    li a {
+    display: block;
+    color:
+    white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: underline;
+    }
+    li a:link {
+        background-color: greenyellow;
+color: red;
+padding: 10px 20px;
+text-align: center;
+border: 1px solid black;
+    }
+    li a:visited {
+background-color: greenyellow;
+color: red;
+padding: 10px 20px;
+text-align: center;
+border: 1px solid black;
+}
+
+
+
+  li a:hover {
+    color: yellowgreen;
+    color: blue;
+  }
+  li a:active {
+background-color: yellowgreen;
+color: white;
+}
+    
+    img {
+    width: 128px;
+    float: left;
+    }
+    p {
+    padding: 15px;
+    line-height: 20px;
+    }
+    ol{
+    margin-left: 150px;
+    }

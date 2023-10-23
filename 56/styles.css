@@ -1,0 +1,134 @@
+.container {      
+    border: 4px solid black;  
+    height: 100%;      
+    position: relative; 
+    margin: 40px 400px; 
+    
+}
+h1  {  
+    display: inline;  
+    background-color: rgb(255, 24, 24);  
+}  
+.up {  
+    width: 100%;  
+    text-align: center;  
+    padding: 20px; 
+}  
+span {      
+    color: #8d8d8d;  
+    text-transform: uppercase;      
+    font-size: 12px;  
+    float: right;
+    display: block;
+    text-align: center;
+   
+}  
+.link {  
+    color: black;
+
+}  
+.hover {
+    background-color: black;
+}
+h3 {      
+    text-transform: uppercase;  
+}  
+ul {      
+    margin-bottom: 50px;  
+} 
+button {  
+    width: 100%;  
+    height: 100px;  
+    background-color: black;  
+    color: white;  
+} 
+.sale { 
+    position: absolute; 
+    background-color: red; 
+    color: #fff; 
+    padding: 10px; 
+    border: 2px solid black; 
+    left: -30px; 
+    top: -37px; 
+    letter-spacing: 5px; 
+} 
+.blocks { 
+    margin-top: 30px; 
+    display: flex; 
+    justify-content: space-between; 
+    width: 350px; 
+    
+} 
+li { 
+    margin-bottom: 30px; 
+} 
+.block1 { 
+    background-color: #0bf626; 
+    width: 40px; 
+    height: 40px; 
+    display: flex; 
+} 
+.block2 { 
+    background-color: #cff60b; 
+    width: 40px; 
+    height: 40px; 
+    display: flex; 
+} 
+.block3 { 
+    background-color: #2e0bf6; 
+    width: 40px; 
+    height: 40px; 
+    display: flex; 
+} 
+.block4 { 
+    background-color: #f60be2; 
+    width: 40px; 
+    height: 40px; 
+    display: flex; 
+} 
+.block5 { 
+    background-color: #940bf6; 
+    width: 40px; 
+    height: 40px; 
+    display: flex; 
+} 
+.block { 
+    background-color: #f60b0b; 
+    width: 40px; 
+    height: 40px; 
+    display: flex; 
+} 
+.fl { 
+    float: left; 
+    width: 20%; 
+    margin-right: 20px; 
+    margin-top: 40px; 
+} 
+.h2 { 
+    display: inline; 
+} 
+.center { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    
+} 
+.right { 
+    float: right; 
+    width: 20%; 
+    margin-left: 20px; 
+    margin-top: 40px; 
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.h {
+    display: block;
+    float:left;
+    padding-left: 200px;
+    width: 20%;
+    
+    
+}

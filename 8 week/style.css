@@ -1,0 +1,75 @@
+.container {
+    border: 3px solid black;
+    width: 1500px;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+   }
+
+.header {
+    background-color: whitesmoke;
+    text-align: center;
+
+}
+
+.title{
+    color: rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.footer {
+color: black;
+border: 1px solid black;
+width: 5%;
+clear: left;
+text-align: left;
+height: 5%;
+     
+}
+.block{
+display: flex;
+justify-content:space-between;
+width: 350px;
+padding: 20px;
+}
+.block1 {
+background-color: black;
+border: 1px solid black;
+width: 40px;
+height: 40px;
+
+
+}
+.block2{
+background-color: blue;
+border: 1px solid blue;
+width: 40px;
+height: 40px;
+}
+.block3{
+background-color: red;
+border: 1px solid red;
+width: 40px;
+height: 40px;
+}
+.block4{
+background-color: yellow;
+border: 1px solid yellow;
+width: 40px;
+height: 40px;
+}
+.block5{
+background-color: brown;
+border: 1px solid brown;
+width: 40px;
+height: 40px;
+}
+.sale {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    left: -50px;
+    top: -37px;
+    letter-spacing: 4px;
+}

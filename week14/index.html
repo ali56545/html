@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 25px 25px 25px; 
+  gap: 10px;
+  background-color: yellow;
+        }
+        .b {
+            display: grid;
+  justify-content: space-around;
+  grid-template-columns: 25px 25px 25px; 
+  gap: 10px;
+  background-color: red;
+  margin: 5px;
+        }
+        .c {
+            display: grid;
+  justify-content: space-between;
+  grid-template-columns: 25px 25px 25px; 
+  gap: 10px;
+  background-color: brown;
+        }
+        .d{
+            display: grid;
+  justify-content: start;
+  grid-template-columns: 25px 25px 25px; 
+  gap: 10px;
+  background-color: green;
+        }
+        .e{
+            display: grid;
+  justify-content: center;
+  grid-template-columns: 25px 25px 25px; 
+  gap: 10px;
+  background-color: aqua;
+        }
+        .f{
+            display: grid;
+  justify-content: end;
+  grid-template-columns: 25px 25px 25px;
+  gap: 10px;
+  background-color: gold;
+        }
+        .g{display: grid;
+  align-content: center;
+  height: 200px;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: hotpink;}
+  .g > div{
+    background-color: white;
+    text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  }
+        .h{
+            display: grid;
+  height: 200px;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: darkgray;
+  padding: 10px;
+  
+        }
+        .h > div {
+            background-color:white;
+            text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+        }
+        .i {
+  display: grid;
+  height: 200px;
+  align-content: space-around;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.i > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+        .j{
+            display: grid;
+  height: 200px;
+  align-content: space-between;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: darkseagreen;
+  padding: 10px;
+        }
+        .j > div {
+            background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+        }
+        .k{
+            display: grid;
+  height: 400px;
+  align-content: start;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: mediumslateblue;
+  padding: 10px;
+        }
+        .k > div {
+            background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+        }
+        .l{
+            display: grid;
+  height: 400px;
+  align-content: end;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: blue;
+  padding: 10px;
+        }
+        .l > div {
+            background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h3>justify-content space-evenly</h3>
+    <div class="a">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+      <h3>justify-content space-around</h3>
+      <div class="b">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+      <h3>justify-content space-between</h3>
+      <div class="c">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+      <h3>justify-content start</h3>
+      <div class="d">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+      <h3>justify-content center</h3>
+      <div class="e">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+      <h3>justify-content end</h3>
+      <div class="f">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+      <h3>align-content center</h3>
+      <div class="g">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+      <h3>align-content space-evenly</h3>
+      <div class="h">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+      <h3>align-content space-around</h3>
+      <div class="i">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+      <h3>align-content space-between</h3>
+      <div class="j">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+      <h3>align-content start</h3>
+      <div class="k">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+      <h3>align-content end</h3>
+      <div class="l">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+      </div>
+
+
+</body>
+</html>

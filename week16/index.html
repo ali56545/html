@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="accordion">
+        <div class="item">
+        <p class="number">01</p> 
+        <p class="text">Twitter</p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg>
+        <div class="hidden-box">
+        <p>«Твиттер» (англ. Twitter), в процессе ребрендинга в X[8][9], — американский сервис микроблогов и социальная сеть, в которой пользователи публикуют сообщения, известные как «твиты», и взаимодействуют с ними. Пользователи взаимодействуют с X через браузер, мобильное приложение или через API.</p>
+        <ul>
+            <li>Difficult</li>
+            <li>Popular</li>
+            <li>Samat</li>
+        </ul>
+        </div>  
+        </div>
+        <div class="item open">
+            <p class="number">02</p> 
+            <p class="text">Whatsapp</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            <div class="hidden-box">
+            <p>WhatsApp[К 1] — американский бесплатный сервис обмена мгновенными сообщениями и голосовой связи по IP, принадлежащий компании Meta. Он позволяет пользователям отправлять текстовые и голосовые сообщения, совершать голосовые и видеозвонки, обмениваться изображениями, документами, местоположением пользователя и другим контентом.</p>
+            <ul>
+                <li>Convience</li>
+                <li>Popular</li>
+                <li>Samat</li>
+            </ul>
+            </div>  
+            </div>
+            <div class="item">
+                <p class="number">03</p> 
+                <p class="text">Telegram</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                  </svg>
+                <div class="hidden-box">
+                <p>Telegram (от др.-греч. τῆλε «далеко» + др.-греч. γράμμα «запись») — кроссплатформенная система мгновенного обмена сообщениями (мессенджер) с функциями обмена текстовыми, голосовыми и видеосообщениями, а также стикерами, фотографиями и файлами многих форматов[6]. Также можно совершать аудио и видеозвонки, устраивать трансляции в каналах и группах, организовывать конференции, многопользовательские группы и каналы.</p>
+                <ul>
+                    <li>Convience</li>
+                    <li>Popular</li>
+                    <li>Samat</li>
+                </ul>
+                </div>  
+                </div>
+    </div>
+   <script>
+  const btns = document.querySelectorAll(".icon");
+for (const btn of btns) {
+  btn.addEventListener("click", () => {
+   btn.parentElement.classList.toggle("open");
+  });
+}
+   </script>
+</body>
+</html>
